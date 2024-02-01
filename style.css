@@ -1,0 +1,126 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:blue;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.body{
+    background-color:white;
+    margin-top:40px;
+    height:80vh;
+    width:60vh;
+    border-radius:10px;
+    }
+#header{
+    text-align:center;
+    color:blue;
+    font-family:sans-serif;
+    margin-top:30px;
+}
+#text{
+    margin:30px 30px;
+    width:35vh;
+    height:5vh;
+    border:0;
+    font-weight:bold;
+    font-size:20px;
+    color:blue;
+    box-shadow:0 0 10px black;
+}
+#btn{
+    width:13.5vh;
+    height:5vh;
+    color:white;
+    border:0;
+    font-weight:bold;
+    background-color:blue;
+    cursor:pointer;
+}
+#btn:hover{
+    border:2px solid blue;
+    background-color:white;
+    color:blue;
+}
+#header1{
+text-align:center;
+font-family:sans-serif;
+color:blue;
+margin-top:20px;
+}
+.box{
+    width:60vh;
+    height:40vh;
+    background-color:rgba(0,0,0,0.3);
+    position:fixed;
+}
+.li{
+    width:35vh;
+    height:3vh;
+    box-shadow:0 0 10px black;
+    margin:10px 5px;
+    padding:3px;
+    font-weight:bold;
+    list-style:none;
+    background:white;
+    color:blue;
+    font-family:sans-serif;
+}
+.button{
+    float:right;
+    margin-right:30px;
+    width:40px;
+    border:0;
+    height:20px;
+}
+.delete{
+    background-color:red;
+    color:white;
+    font-weight:bold;
+    float:right;
+    margin-right:30px;
+    margin-top:-30px;
+    width:40px;
+    border:0;
+    height:20px;
+}
+.delete:hover{
+    border:2px solid red;
+    color:red;
+    background-color:white;
+}
+.ADD{
+    float:right;
+    margin-right:90px;
+    margin-top:-30px;
+    width:40px;
+    border:0;
+    height:20px;
+   background-color:green;
+   color:white;
+   font-weight:bold;
+}
+.ADD:hover{
+    background-color:white;
+    border:2px solid green;
+    color:green;
+}
+p{
+    position:absolute;
+    color:blue;
+    font-weight:bold;
+    font-family:sans-serif;
+    text-align:center;
+    font-size:10px;
+    bottom:17vh;
+    left:88vh;
+}
+
+
+
+
